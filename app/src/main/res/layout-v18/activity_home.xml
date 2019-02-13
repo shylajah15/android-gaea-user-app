@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12sp"
+        android:text="Welcome"
+        android:textColor="@android:color/black"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/questions_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username"
+        android:paddingLeft="12sp"
+        android:paddingRight="30dp"
+        android:paddingTop="12sp"
+        android:text="@string/question_text"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="12sp"
+        android:paddingLeft="24sp"
+        android:paddingRight="24sp"
+        android:paddingTop="12sp"
+        android:text="I am Farmer"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/white"
+        tools:targetApi="jelly_bean_mr2" />
+
+    <TextView
+        android:id="@+id/username2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12sp"
+        android:layout_below="@+id/button1"
+        android:layout_centerHorizontal="true"
+        android:text="Or"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username2"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:paddingBottom="12sp"
+        android:paddingLeft="24sp"
+        android:paddingRight="24sp"
+        android:paddingTop="12sp"
+        android:text="Farming is my hobby"
+        android:textAllCaps="?android:attr/windowOverscan"
+        android:textColor="@android:color/white"
+        tools:targetApi="jelly_bean_mr2" />
+
+</RelativeLayout>
